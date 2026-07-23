@@ -4,6 +4,7 @@
     --primary: #2c5aa0;
     --primary-dark: #1e3f73;
     --primary-light: #e8f0fe;
+    --bs-primary-rgb: 44, 90, 160;
 }
 
 * {
@@ -43,7 +44,7 @@ body {
 }
 
 /* Colors */
-.bg-primary, .btn-primary {
+.btn-primary {
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
 }
@@ -52,8 +53,6 @@ body {
     background-color: var(--primary-dark) !important;
     border-color: var(--primary-dark) !important;
 }
-
-.text-primary { color: var(--primary) !important; }
 
 .btn-outline-primary {
     color: var(--primary);
